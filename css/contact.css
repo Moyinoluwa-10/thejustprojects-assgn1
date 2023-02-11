@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Halant", serif;
+}
+
+body {
+  padding: 100px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.primary-heading {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: 0.005em;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 270px;
+  display: inline-block;
+}
+
+.form-input,
+.form-select {
+  font-family: "Manrope", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 20px;
+  width: 400px;
+  max-width: 100%;
+  height: 56px;
+  border: 1px solid #383838;
+  border-radius: 4px;
+  display: block;
+}
+
+.form-select {
+  color: #595959;
+}
+
+::placeholder {
+  font-family: "Manrope", sans-serif;
+  color: #797979;
+}
+
+.form-check-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.form-checkbox-label,
+.form-radio-label {
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-right: 8px;
+}
+
+.form-checkbox,
+.form-radio {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+}
+
+option {
+  font-family: "Manrope", sans-serif;
+  color: black;
+}
+
+.btn-submit {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 20px;
+  width: 400px;
+  max-width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  background: #155eef;
+  color: #ffffff;
+}

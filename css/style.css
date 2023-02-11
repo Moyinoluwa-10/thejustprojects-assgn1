@@ -39,7 +39,7 @@ body {
 }
 
 .background {
-  height: 500px;
+  min-height: 500px;
   width: 70%;
   background: url(./assets/images/bg.jpg);
   margin: 0 auto;
