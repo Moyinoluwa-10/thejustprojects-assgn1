@@ -12,12 +12,26 @@
       href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/svgs/favicon.svg"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header class="header">
       <div class="logo-container">
         <img src="./assets/svgs/logo-blue.svg" alt="logo" />
       </div>
+
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">
+        <span class="line line--1"></span>
+        <span class="line line--2"></span>
+        <span class="line line--3"></span>
+      </label>
+
       <nav class="nav">
         <ul class="nav-menu">
           <li class="nav-list">
@@ -42,7 +56,9 @@
             A senior developer with expertise in coming up with both rational
             and creative solutions to challenging web issues.
           </p>
-          <div><a href="#" class="btn btn--blue">See My Projects</a></div>
+          <div>
+            <a href="#" class="btn btn--blue btn-project">See My Projects</a>
+          </div>
         </div>
 
         <div class="dark-image-container">
@@ -56,7 +72,7 @@
         </div>
 
         <div class="right-sec">
-          <h2 class="secondary-heading">Anthony Dolphin,</h2>
+          <h2 class="secondary-heading">ABOUT ME</h2>
           <p class="paragraph">
             My name is Anthony Dolphin Dave, I am an engineering student and
             currently work as a full stack developer. I worked as a product
